@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- ---------------------------- -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>welcome</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="icon" type="image/ingab-icon" href="/FAVICON.svg" />
+  </head>
+  <!-- ---------------------------- -->
+  <body>
+    <header class="header">
+      <div id="headerMenuHamburger" class="header-menu-hamburger">
+        <div class="header-menu-icon" onclick="clickMenu()">
+          <img class="header-menu-mobile" src="/assets/menu.svg" />
+        </div>
+        <nav>
+          <ul class="header-menu">
+            <li>
+              <a id="itemsMain" class="header-menu-home" href="/index.html"
+                >home</a
+              >
+            </li>
+            <div id="items" class="header-menu-items">
+              <li>
+                <a class="header-menu-about" href="/about.html">about</a>
+              </li>
+              <li>
+                <a class="header-menu-experience" href="/experience.html"
+                  >experience</a
+                >
+              </li>
+            </div>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="header-logo">
+        <img class="header-logo-ingab" src="/assets/logo.svg" alt="ingab." />
+      </div>
+      <img
+        class="header-darkmode"
+        src="/assets/DARK MODE.svg"
+        alt="dark mode"
+      />
+    </header>
+    <button onclick="clickMenu()">test</button>
+
+    <!-- ---------------------------- -->
+
+    <!-- <script>
+      function clickMenu() {
+        if (items.style.display == "flex") {
+          items.style.display = "none";
+          itemsMain.style.padding = '20px 30px'
+        } else {
+          items.style.display = "flex";
+          itemsMain.style.padding = '20px 60px'
+        }
+      }
+    </script> -->
+    <!-- ---------------------------- -->
+  </body>
+  <!-- ---------------------------- -->
+</html>

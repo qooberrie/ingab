@@ -1,0 +1,88 @@
+/* --- MOBILE FIRST --- */
+
+.header {
+  max-width: 660px;
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-weight: bold;
+  font-size: 1.25rem;
+  text-align: center;
+}
+.header-menu-hamburger {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background: #fafafa;
+  border-radius: 50px;
+  align-items: baseline;
+  background: red;
+}
+
+.header-menu-icon,
+.header-logo,
+.header-darkmode {
+  background: #fafafa;
+  border-radius: 50px;
+  display: inline;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: blue;
+}
+
+.header-menu-home {
+  display: inline-block;
+  background: #8ac926;
+  color: #fafafa;
+  border-radius: 0 50px 50px 0;
+  padding: 20px 30px;
+}
+
+.header-menu {
+  display: inline-block;
+  background: purple;
+}
+.header-menu-items {
+  background: orange;
+}
+
+/* ---- */
+.header-menu-icon {
+  display: flex;
+  align-self: self-start;
+  padding: 13px;
+}
+
+.header-logo {
+  padding: 20px;
+}
+
+.header-darkmode {
+  padding: 12px;
+}
+
+/* ----- */
+.header-menu-mobile {
+}
+/* ----- */
+
+.header-menu-about,
+.header-menu-experience {
+  display: inline-block;
+  padding: 30px;
+}
+/* ----- */
+.header-logo {
+}
+.header-logo-ingab {
+}
+/* ----- */
+.header-darkmode {
+}
+
+@media screen and (max-width: 350px) {
+  html {
+    display: none;
+  }
+}

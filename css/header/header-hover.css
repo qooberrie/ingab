@@ -1,0 +1,19 @@
+/* --- HOVER --- */
+
+.header-menu-home:hover {
+  background: #72aa1f;
+  color: #e5f5b7;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.header-menu-hamburger:hover {
+  cursor: pointer;
+}
+.header-darkmode:hover {
+  cursor: pointer;
+}
+.header-menu-items a:hover {
+  color: #3B630F;
+  transition-duration: 0.5s;
+}

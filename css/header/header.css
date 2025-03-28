@@ -1,0 +1,55 @@
+/* --- NORMAL --- */
+
+@media screen and (min-width: 660px)  {
+  .header-menu-mobile, .header-menu-icon {
+    display: none;
+  }
+  .header {
+    max-width: 660px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-menu, .header-menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-menu, .header-menu-items,
+  .header-logo,
+  .header-darkmode {
+    background: #fafafa;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+  .header-menu-home {
+    display: inline;
+    background: #8ac926;
+    color: #fafafa;
+    border-radius: 50px;
+    padding: 20px 30px;
+  }
+
+  .header-menu-about,
+  .header-menu-experience {
+    display: inline;
+    padding: 30px;
+    border-radius: 50px;
+  }
+  .header-menu-items{
+    padding: 0px;
+
+  }
+
+  .header-logo {
+    border-radius: 50px;
+    padding: 20px 10px;
+  }
+  .header-darkmode {
+    padding: 12px;
+  }
+}
