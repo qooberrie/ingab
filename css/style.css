@@ -1,5 +1,64 @@
 @import url("/css/global.css");
-@import url("/css/header/header-mobile.css");
-@import url("/css/header/header.css");
-@import url("/css/header/header-hover.css");
 
+:root{
+     --E10: #FBEEFF
+     --E9: #E3CAE7
+     --E8: #C4A6CF
+     --E7: #A27FB5
+     --E6: #8762A2
+     --E5: #6A4C93
+     --E4: #5A3F7E
+     --E3: #483067
+     --E2: #2E1E4C
+     --E1: #080220
+     --D10: #DDF2FF
+     --D9: #98C9E8
+     --D8: #6EB2DC
+     --D7: #439AD0
+     --D6: #1982C4
+     --D5: #146AA5
+     --D4: #0F4D7F
+     --D3: #0A3560
+     --D2: #061F44
+     --D1: #020928
+     --C10: #E5F5B7
+     --C9: #
+     --C8: #
+     --C7: #
+     --C6: #
+     --C5: #
+     --C4: #
+     --C3: #
+     --C2: #
+     --C1: #
+     --B10: #
+     --B9: #
+     --B8: #
+     --B7: #
+     --B6: #
+     --B5: #
+     --B4: #
+     --B3: #
+     --B2: #
+     --B1: #
+     --A10: #
+     --A9: #
+     --A8: #
+     --A7: #
+     --A6: #
+     --A5: #
+     --A4: #
+     --A3: #
+     --A2: #
+     --A1: #
+     --G10: #
+     --G9: #
+     --G8: #
+     --G7: #
+     --G6: #
+     --G5: #
+     --G4: #
+     --G3: #
+     --G2: #
+     --G1: #
+}
