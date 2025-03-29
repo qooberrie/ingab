@@ -1,1 +1,37 @@
 /* TODO BIG SCREENS */
+
+@media screen and (min-width: 800px) {
+  .header .header-menu-wrapper .header-hamburger {
+    background: var(--C3);
+    display: none;
+  }
+  .menu {
+    display: flex;
+    max-width: 200px;
+  }
+
+  .header {
+    background: var(--G3);
+  }
+
+  .header .header-menu-wrapper {
+    background: var(--E3);
+  }
+
+  .header .header-menu-wrapper .menu {
+    background: var(--D3);
+  }
+
+  /* nn aparece cor/fundo */
+  .header .header-menu-wrapper .menu ul {
+    background: var(--C3);
+  }
+
+  .header .header-menu-wrapper .menu ul li {
+    background: var(--B3);
+  }
+
+  .header .header-menu-wrapper .menu ul li a {
+    background: var(--A3);
+  }
+}

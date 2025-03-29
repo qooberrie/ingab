@@ -3,27 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>welcome</title>
+    <title>ingab.</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" type="image/ingab-icon" href="/FAVICON.svg" />
   </head>
   <body>
-    <!-- menu -->
+    <!-- começa menu -->
     <header class="header">
       <div id="header" class="header-menu-wrapper">
-        <div class="header-hamburger" onclick="showItems('rest')">
-          <img class="" src="/assets/menu.svg" />
+        <div class="header-hamburger">
+          <img onclick="showMenu('menu')" src="/assets/menu.svg" />
         </div>
-        <nav class="header-menu">
+        <nav class="menu">
           <ul>
             <li>
-              <a href="#" onclick="showSection('home')">home</a>
+              <a href="#home" onclick="showSection('home')">home</a>
             </li>
             <li>
-              <a href="#" onclick="showSection('about')">about</a>
+              <a href="#about" onclick="showSection('about')">about</a>
             </li>
             <li>
-              <a href="#" onclick="showSection('experience')">experience</a>
+              <a href="#professional" onclick="showSection('professional')"
+                >professional</a
+              >
             </li>
           </ul>
         </nav>
@@ -38,9 +40,11 @@
         alt="dark mode"
       />
     </header>
-
-    <!-- section--horizontal__picture -->
-    <section class="section home horizontal__picture active">
+    <!-- termina menu -->
+    <!-- começa elementos fixos independente da section -->
+    <section
+      class="section horizontal-picture-wrapper home about professional active"
+    >
       <div>
         <img src="assets/FAVORITE HAN.svg" alt="star" />
         <img src="assets/HAN.jpg" alt="" />
@@ -51,8 +55,7 @@
       </div>
     </section>
 
-    <!-- section--side__picture -->
-    <aside class="section home active">
+    <section class="section side-picture-wrapper home about professional active">
       <div>
         <div>
           <img src="assets/FAVORITE SEUNG.svg" alt="" />
@@ -64,24 +67,24 @@
           in general. 📚
         </p>
       </div>
-    </aside>
+    </section>
 
-    <!-- section--title__picture -->
-    <section class="section home active">
+    <section
+      class="section weather-player-wrapper home about professional active"
+    >
       <div>
         <div>
-          <img src="assets/WEATHER/WEATHER SNOWY.svg" alt="" />
+          <img src="assets/WEATHER/WE"ATHER SNOWY.svg" alt="" />
           <p>9° snowy - 12:22pm</p>
         </div>
         <div>
           <img src="assets/SONG.svg" alt="" />
-          <p>villain - tony k | 1:54</p>
+          <p>love me not - ravyn lenae | 1:54</p>
         </div>
       </div>
     </section>
-
-    <!-- section--quote -->
-    <section class="section home active">
+    <!-- começa elementos da section home -->
+    <section class="section container-quote-wrapper home active">
       <div>
         <h2>eric steven raymond</h2>
         <h1>the cathedral and the bazaar</h1>
@@ -101,8 +104,7 @@
       </div>
     </section>
 
-    <!-- section--quote__picture -->
-    <section class="section home about active">
+    <section class="section quote-picture-wrapper home about professional active">
       <div>
         <img src="assets/FAVORITE WOO.svg" alt="" />
         <img src="assets/WOO.jpg" alt="" />
@@ -113,8 +115,7 @@
       </div>
     </section>
 
-    <!-- section--contact -->
-    <section class="section home active">
+    <section class="section contact-wrapper home active">
       <div>
         <img src="assets/CIRCLES.svg" alt="" />
         <h2>find me here</h2>
@@ -132,9 +133,8 @@
         <a href="https://www.behance.net/qooberrie">behance</a>
       </div>
     </section>
-
-    <!-- section--likes -->
-    <section class="section about">
+    <!-- começa elementos da section about -->
+    <section class="section likes-wrapper about">
       <div>
         <img src="assets/CIRCLES.svg" alt="" />
         <h2>i truly enjoy it!</h2>
@@ -150,8 +150,7 @@
       </p>
     </section>
 
-    <!-- section--aboutme -->
-    <section class="section about">
+    <section class="section about-me-wrapper about">
       <div>
         <h2>a little about me</h2>
         <h1>get to know me</h1>
@@ -167,6 +166,119 @@
         though i probably shouldn’t, i'm a energy drink lover and totally
         addicted to red bull, now for food, lasagna has me all over, for
         dessert, pistachio ice cream or chocolates are my go-to. 🍨🍫
+      </div>
+    </section>
+    <!-- começa elementos da section professional -->
+    <section class="section learning-wrapper professional">
+      <div>
+        <h2>some stuff i found interesting</h2>
+        <h1>learning</h1>
+        <img src="assets/CIRCLES.svg" alt="" />
+      </div>
+      <div>
+        <div>
+          <img src="assets/LEARNING/UX DESIGN.svg" alt="" />
+          <span>ux design</span>
+        </div>
+        <div>
+          <img src="assets/LEARNING/UI DESIGN.svg" alt="" />
+          <span>ui design</span>
+        </div>
+        <div>
+          <img src="assets/LEARNING/JAVASCRIPT.svg" alt="" />
+          <span>javascript</span>
+        </div>
+        <div>
+          <img src="assets/LEARNING/HTML.svg" alt="" />
+          <span>html</span>
+        </div>
+        <div>
+          <img src="assets/LEARNING/CSS.svg" alt="" />
+          <span>css</span>
+        </div>
+        <div>
+          <p>
+            currently figuring out ui/ux, html, css, and js. i like breaking
+            things just to see how they work, and somehow, it helps me learn
+            faster. no guarantees everything makes sense, but that's part of the
+            process. experimenting with different ideas, tweaking small details,
+            and occasionally wondering why something that should work just
+            doesn’t. it’s a mix of curiosity, frustration, and small victories.
+            🤏🏅
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section professional-wrapper professional">
+      <div>
+        <h2>some stuff i've already worked with</h2>
+        <h1>experience</h1>
+        <img src="assets/CIRCLES.svg" alt="" />
+      </div>
+      <div>
+        <h3>software skills</h3>
+        <div>
+          <img src="assets/SOFTWARE SKILLS/ADOBE PHOTOSHOP.svg" alt="">
+          <span>adobe photoshop</span>
+        </div>
+        <div>
+          <img src="assets/SOFTWARE SKILLS/ADOBE ILLUSTRATOR.svg" alt="">
+          <span>adobe illustrator</span>
+        </div>
+        <div>
+          <img src="assets/SOFTWARE SKILLS/FIGMA.svg" alt="">
+          <span>figma</span>
+        </div>
+        <div>
+          <img src="assets/SOFTWARE SKILLS/VISUAL STUDIO CODE.svg" alt="">
+          <span>visual studio code</span>
+        </div>
+        <div>
+          <img src="assets/SOFTWARE SKILLS/KRITA.svg" alt="">
+          <span>krita</span>
+        </div>
+      </div>
+      <div>
+        <h3>abilities</h3>
+        <div>
+          <img src="assets/ABILITIES/GRAPHIC DESIGN.svg" alt="">
+          <span>graphic design</span>
+        </div>
+        <div>
+          <img src="assets/ABILITIES/ILLUSTRATION.svg" alt="">
+          <span>illustration</span>
+        </div>
+        <div>
+          <img src="assets/ABILITIES/DIGITAL DRAWING.svg" alt="">
+          <span>digital drawing</span>
+        </div>
+        <div>
+          <img src="assets/ABILITIES/TRADITIONAL DRAWING.svg" alt="">
+          <span>traditional drawing</span>
+        </div>
+        <div>
+          <img src="assets/ABILITIES/UI DESIGN.svg" alt="">
+          <span>ui design</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section languages-wrapper professional">
+      <div>
+        <h2>hear me out</h2>
+        <h1>languages</h1>
+      </div>
+      <div>
+        <div>
+          <span>portuguese</span>
+        </div>
+        <div>
+          <span>english</span>
+        </div>
+        <div>
+          <span>한글</span>
+        </div>
       </div>
     </section>
 
