@@ -1,51 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- ---------------------------- -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>welcome</title>
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" type="image/ingab-icon" href="/FAVICON.svg" />
   </head>
-  <!-- ---------------------------- -->
   <body>
-    <header class="">
-      <div id="" class="">
-        <div class="" onclick="clickMenu()">
+    <!-- menu -->
+    <header class="header">
+      <div id="header" class="header-menu-wrapper">
+        <div class="header-hamburger" onclick="showItems('rest')">
           <img class="" src="/assets/menu.svg" />
         </div>
-        <nav>
-          <ul class="">
+        <nav class="header-menu">
+          <ul>
             <li>
-              <a id="itemsMain" class="" href="/index.html"
-                >home</a
-              >
+              <a href="#" onclick="showSection('home')">home</a>
             </li>
-            <div id="items" class="">
-              <li>
-                <a class="" href="/about.html">about</a>
-              </li>
-              <li>
-                <a class="" href="/experience.html"
-                  >experience</a
-                >
-              </li>
-            </div>
+            <li>
+              <a href="#" onclick="showSection('about')">about</a>
+            </li>
+            <li>
+              <a href="#" onclick="showSection('experience')">experience</a>
+            </li>
           </ul>
         </nav>
       </div>
 
-      <div class="">
+      <div class="header-logo">
         <img class="" src="/assets/logo.svg" alt="ingab." />
       </div>
       <img
-        class=""
+        class="header-darkmode"
         src="/assets/DARK MODE.svg"
         alt="dark mode"
       />
     </header>
-    <button onclick="clickMenu()">test</button>
+
+    <!-- section--horizontal__picture -->
+    <section class="section home horizontal__picture active">
+      <div>
+        <img src="assets/FAVORITE HAN.svg" alt="star" />
+        <img src="assets/HAN.jpg" alt="" />
+        <div>
+          <p>march, 2025</p>
+          <p>moody nights by woo</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- section--side__picture -->
+    <aside class="section home active">
+      <div>
+        <div>
+          <img src="assets/FAVORITE SEUNG.svg" alt="" />
+          <p>monday 10th, 2025</p>
+        </div>
+        <img src="assets/SEUNG.jpg" alt="" />
+        <p>
+          welcome to my space, where i talk about my goals, tastes and my life
+          in general. 📚
+        </p>
+      </div>
+    </aside>
+
+    <!-- section--title__picture -->
+    <section class="section home active">
+      <div>
+        <div>
+          <img src="assets/WEATHER/WEATHER SNOWY.svg" alt="" />
+          <p>9° snowy - 12:22pm</p>
+        </div>
+        <div>
+          <img src="assets/SONG.svg" alt="" />
+          <p>villain - tony k | 1:54</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- section--quote -->
+    <section class="section home active">
+      <div>
+        <h2>eric steven raymond</h2>
+        <h1>the cathedral and the bazaar</h1>
+        <img src="assets/CIRCLES.svg" alt="" />
+      </div>
+      <div>
+        “...Similarly, to be a hacker you have to get a basic thrill from
+        solving problems, sharpening your skills, and exercising your
+        intelligence. If you aren’t the kind of person that feels this way
+        naturally, you’ll need to become one in order to make it as a hacker.
+        Otherwise you’ll find your hacking energy is sapped by distractions like
+        money, and social approval. (You also have to develop a kind of faith in
+        your own learning capacity — a belief that even though you may not know
+        all of what you need to solve a problem, if you tackle just a piece of
+        it and learn from that, you’ll learn enough to solve the next piece —
+        and so on, until you’re done.)”
+      </div>
+    </section>
+
+    <!-- section--quote__picture -->
+    <section class="section home about active">
+      <div>
+        <img src="assets/FAVORITE WOO.svg" alt="" />
+        <img src="assets/WOO.jpg" alt="" />
+        <div>
+          <p>you're safe</p>
+          <p>it's only change</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- section--contact -->
+    <section class="section home active">
+      <div>
+        <img src="assets/CIRCLES.svg" alt="" />
+        <h2>find me here</h2>
+        <h1>you want to talk with me?</h1>
+      </div>
+      <p>
+        I can be a bit busy sometimes, so replies might take a while. but no
+        worries! As long as it says 'Sent', 'Message on its way', 'Yeah, he got
+        it', or some other cryptic sign… I’ve received it and will reply as soon
+        as possible. 🫡"
+      </p>
+      <div>
+        <a href="https://qooberrie.dev/">portfolio</a>
+        <a href="https://github.com/qooberrie">github</a>
+        <a href="https://www.behance.net/qooberrie">behance</a>
+      </div>
+    </section>
+
+    <!-- section--likes -->
+    <section class="section about">
+      <div>
+        <img src="assets/CIRCLES.svg" alt="" />
+        <h2>i truly enjoy it!</h2>
+        <h1>oumaiga</h1>
+      </div>
+      <p>
+        I’ve always enjoyed exploring different ways to express myself. I’m
+        always looking for something new (I swear it’s not an existential
+        crisis). drawing For as long as I can remember I love playing around
+        with either digital or traditional art reading I usually get lost in
+        books (a lot) journaling I enjoy writing down my daily life and jotting
+        down my thoughts in my journal and planner.
+      </p>
+    </section>
+
+    <!-- section--aboutme -->
+    <section class="section about">
+      <div>
+        <h2>a little about me</h2>
+        <h1>get to know me</h1>
+        <img src="assets/CIRCLES.svg" alt="" />
+      </div>
+      <div>
+        hey you can call me kev or gab, i’m nineteen (19) years old, a Brazilian
+        mobile developer (wip). i’m fluent in two (02) languages: portuguese and
+        english, portuguese being my mother tongue, of course. my favorite color
+        is pastel pink, i'm in love with genshin's wanderer, and as expected, my
+        favorite character is mini durin, when it comes to music, i love
+        leisure, this band simply embraces my soul. 🎼 regarding drinks, even
+        though i probably shouldn’t, i'm a energy drink lover and totally
+        addicted to red bull, now for food, lasagna has me all over, for
+        dessert, pistachio ice cream or chocolates are my go-to. 🍨🍫
+      </div>
+    </section>
 
     <script src="script.js"></script>
   </body>

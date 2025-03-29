@@ -1,5 +1,7 @@
 @import url("global.css");
-@import url('');
+@import url("menu.css");
+@import url("menuBigScreens.css");
+@import url("menuHover.css");
 
 :root {
   --G13: #131312;

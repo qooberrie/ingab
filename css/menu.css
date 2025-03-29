@@ -1,1 +1,76 @@
 /* TODO MOBILE FIRST */
+
+@media screen and (max-width: 800px) {
+  .section {
+    display: none;
+  }
+
+  .section.home.active {
+    background-color: var(--A6);
+    margin: 0 auto;
+    width: 90vw;
+    padding: 10px 30px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+  }
+
+  .section.home.horizontal__picture.active{
+     background: var(--D5);
+  }
+
+  .section.about.active {
+    background-color: var(--B6);
+    margin: 0 auto;
+    width: 90vw;
+    padding: 10px 30px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+  }
+
+  .section.experience.active {
+    background-color: var(--B6);
+    margin: 0 auto;
+    width: 90vw;
+    padding: 10px 30px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+  }
+
+  .header {
+    background: var(--G5);
+  }
+
+  .header .header-menu-wrapper {
+    background: var(--E5);
+  }
+
+  /* nn aparece cor/fundo */
+  .header .header-menu-wrapper .header-menu {
+    background: var(--D5);
+  }
+
+  /* nn aparece cor/fundo */
+  .header .header-menu-wrapper .header-menu ul {
+    background: var(--C5);
+  }
+
+  .header .header-menu-wrapper .header-menu ul li {
+    background: var(--B5);
+  }
+
+  .header .header-menu-wrapper .header-menu ul li a {
+    background: var(--A5);
+  }
+}
